@@ -1,6 +1,10 @@
 # AMR-based Answer Generation
 By Caitlyn Chen, Justin Chen, Tiffeny Chen, Yibing Chen, and Evan Zauderer
 
+## Files in the Repo
+- project.py: A Python file containing the bulk of the code for the project. It was first written in a Jupyter notebook, which explains certain stylistic features of the file
+- qamr_test.ipnyb: A Jupyter notebook containing our work for data acquisition (from the QAMR dataset)
+- results.txt: Results of our 2 methods, discussed below
 ## Goal
 
 Standard manual question answer (QA) generation is labor and time-intensive. We propose two automated QA generation frameworks, which leverage abstract meaning representations (AMRs) in order  to provide semantic information to our models. Our first proposal revolves around the creation of templates that map certain “question phrases” to the likeliest AMR roles for the answer. Our second proposal utilizes a Sequence to Sequence (seq2seq) model in order to learn answers from the input AMR representations.
