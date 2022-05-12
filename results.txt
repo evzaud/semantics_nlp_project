@@ -1,5 +1,0 @@
-Template Exact Match: 0.122
-Template BLEU: 0.189
-
-seq2seq Exact Match: 0.122
-seq2seq BLEU: 0.373
